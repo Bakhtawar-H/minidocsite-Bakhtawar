@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "article1.html",
+    "href": "article1.html",
+    "title": "Article 1",
+    "section": "",
+    "text": "Article 1\nThis is the content of Article 1. It provides an introduction to the topic and sets the stage for the subsequent articles.\n\none\ntwo\nthree\n\n\n\n\ndescription of image"
+  },
+  {
+    "objectID": "article2.html",
+    "href": "article2.html",
+    "title": "Article 2",
+    "section": "",
+    "text": "Article 2"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home page",
+    "section": "",
+    "text": "Home page"
+  },
+  {
+    "objectID": "article3.html",
+    "href": "article3.html",
+    "title": "Article 3",
+    "section": "",
+    "text": "Article 3"
+  }
+]

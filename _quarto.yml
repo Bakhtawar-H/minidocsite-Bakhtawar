@@ -1,0 +1,27 @@
+project:
+  type: website
+
+website:
+  page-footer:
+    background: primary
+    left: "&copy;2026, Bakhtawar Halepoto"
+    center: "Built with [Quarto](https://quarto.org)"
+    right:
+     - icon: github
+       href: "https://github.com/bakhtawar"
+
+
+  title: "My Mini Site"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - article1.qmd
+      - article2.qmd
+      - article3.qmd   
+
+format:
+  html:
+    theme: vapor
+    css: styles.css
+    toc: true
