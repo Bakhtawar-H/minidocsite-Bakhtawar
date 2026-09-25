@@ -2,6 +2,7 @@ project:
   type: website
 
 website:
+  site-url: "https://bakhtawarhalepoto.github.io/minidocsite-Bakhtawar/"
   page-footer:
     background: primary
     left: "&copy;2026, Bakhtawar Halepoto"
@@ -22,6 +23,6 @@ website:
 
 format:
   html:
-    theme: vapor
+    theme: sketchy
     css: styles.css
     toc: true

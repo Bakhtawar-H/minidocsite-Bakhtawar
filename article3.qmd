@@ -18,8 +18,7 @@ Step 2: Publish your repository
 Step 3: Create index.qmd file
 
 + Open the repository in VS Code and create a new file called index.qmd. This will be the main page of your website. You can add text, images, and other content using Markdown syntax. For example, you can add a title, a paragraph, and an image like this:
-  
-![For Example](example-image.png)
+![See image](example-image.png)
 
 Step 4: Create Quarto file
 
@@ -31,8 +30,7 @@ Save the files everytime you makes changes. [if you are using Mac  "Comd+S" and 
   
 Step 5: Create additional pages
 
-+ Create addition pages by creating new .qmd files in the repository. For example, you can create a file called about.qmd for an About page, or contact.qmd for a Contact page. You can link to these pages from your index.qmd file using Markdown links like this:
-[About](about.qmd)
++ Create addition pages by creating new .qmd files in the repository. For example, you can create a file called about.qmd for an About page, or contact.qmd for a Contact page. You can link to these pages from your index.qmd file using Markdown links. 
 
 Step 6: Commit changes and Push
 + Open GitHub and write summary, commit changes and push. 

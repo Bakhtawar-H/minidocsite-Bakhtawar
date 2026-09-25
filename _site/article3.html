@@ -42,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-24c57cd4a1bff6c7739580288eb64683.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-2171eb83443524023455ebcb2c0490f9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -150,14 +150,8 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <p>Step 3: Create index.qmd file</p>
 <ul>
-<li>Open the repository in VS Code and create a new file called index.qmd. This will be the main page of your website. You can add text, images, and other content using Markdown syntax. For example, you can add a title, a paragraph, and an image like this:</li>
+<li>Open the repository in VS Code and create a new file called index.qmd. This will be the main page of your website. You can add text, images, and other content using Markdown syntax. For example, you can add a title, a paragraph, and an image like this: <img src="example-image.png" class="img-fluid" alt="See image"></li>
 </ul>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="example-image.png" class="img-fluid figure-img"></p>
-<figcaption>For Example</figcaption>
-</figure>
-</div>
 <p>Step 4: Create Quarto file</p>
 <ul>
 <li>create new file and name it “_quarto.yml”</li>
@@ -166,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Save the files everytime you makes changes. [if you are using Mac “Comd+S” and “Ctrl+S” if you are using Windows]</p>
 <p>Step 5: Create additional pages</p>
 <ul>
-<li>Create addition pages by creating new .qmd files in the repository. For example, you can create a file called about.qmd for an About page, or contact.qmd for a Contact page. You can link to these pages from your index.qmd file using Markdown links like this: <a href="about.qmd">About</a></li>
+<li>Create addition pages by creating new .qmd files in the repository. For example, you can create a file called about.qmd for an About page, or contact.qmd for a Contact page. You can link to these pages from your index.qmd file using Markdown links.</li>
 </ul>
 <p>Step 6: Commit changes and Push + Open GitHub and write summary, commit changes and push. + In VS Code, using the Terminal, type ‘quarto render’ to render the website. This will generate HTML files from your .qmd files and save them in a _site folder. You can preview your website locally by opening the index.html file in a web browser.</p>
 
@@ -247,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/bakhtawarhalepoto\.github\.io\/minidocsite-Bakhtawar\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
