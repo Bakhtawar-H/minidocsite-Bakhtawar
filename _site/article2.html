@@ -101,11 +101,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./article1.html"> 
-<span class="menu-text">Article 1</span></a>
+<span class="menu-text">Writing with AI: A Beginner’s Guide</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./article2.html" aria-current="page"> 
-<span class="menu-text">Article 2</span></a>
+<span class="menu-text">Prompting Strategies for Large Language Models</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./article3.html"> 
@@ -127,7 +127,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#article-2" id="toc-article-2" class="nav-link active" data-scroll-target="#article-2">Article 2</a></li>
+  <li><a href="#prompting-strategies-for-large-language-models" id="toc-prompting-strategies-for-large-language-models" class="nav-link active" data-scroll-target="#prompting-strategies-for-large-language-models">Prompting Strategies for Large Language Models</a></li>
+  <li><a href="#zero-shot" id="toc-zero-shot" class="nav-link" data-scroll-target="#zero-shot">1- Zero-shot</a></li>
+  <li><a href="#few-shot" id="toc-few-shot" class="nav-link" data-scroll-target="#few-shot">2- Few-shot</a></li>
+  <li><a href="#chain-of-thought-cot" id="toc-chain-of-thought-cot" class="nav-link" data-scroll-target="#chain-of-thought-cot">3- Chain-of-thought (CoT)</a></li>
+  <li><a href="#self-consistency" id="toc-self-consistency" class="nav-link" data-scroll-target="#self-consistency">4- Self-consistency</a></li>
+  <li><a href="#prompt-chaining" id="toc-prompt-chaining" class="nav-link" data-scroll-target="#prompt-chaining">5- Prompt chaining</a></li>
+  <li><a href="#reference" id="toc-reference" class="nav-link" data-scroll-target="#reference">Reference:</a></li>
   </ul>
 </nav>
     </div>
@@ -137,8 +143,39 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="article-2" class="level1">
-<h1>Article 2</h1>
+<section id="prompting-strategies-for-large-language-models" class="level1">
+<h1>Prompting Strategies for Large Language Models</h1>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="pic2.webp" class="img-fluid figure-img"></p>
+<figcaption>Prompting Strategies</figcaption>
+</figure>
+</div>
+</section>
+<section id="zero-shot" class="level1">
+<h1>1- Zero-shot</h1>
+<p>Attempting to accomplish a task without providing any examples or context. The model is expected to generate a response based solely on the input prompt. They are useful when you want to test the model’s general knowledge or when you have a clear and specific task in mind. However, they may not always produce accurate or relevant results, especially for complex tasks.</p>
+</section>
+<section id="few-shot" class="level1">
+<h1>2- Few-shot</h1>
+<p>Attempting to provide feedback and examples to the model in the prompt. The model is expected to learn from the provided examples and generate a response based on that context. They are useful when you want to provide the model with some guidance or when you have a task that requires some level of understanding or reasoning. However, they may not always produce accurate or relevant results, especially if the examples are not representative of the task.</p>
+</section>
+<section id="chain-of-thought-cot" class="level1">
+<h1>3- Chain-of-thought (CoT)</h1>
+<p>Asking the AI to to reason and iterate through a problem step-by-step, rather than providing a single answer. This can help the model to generate more accurate and relevant responses, especially for complex tasks that require reasoning or problem-solving. However, it may also increase the time and resources required to generate a response. One challenge with this approach is that the model may not always follow the intended reasoning path, and eventually lose the context, which may generate irrelevant or incorrect responses. To avoid this, open a new chat early if you notice the model is losing context or generating irrelevant responses.</p>
+</section>
+<section id="self-consistency" class="level1">
+<h1>4- Self-consistency</h1>
+<p>Using the same chain-of-thought prompt multiple times to generate multiple responses, and then selecting the most consistent or common response as the final answer. This can help to reduce the impact of any errors or inconsistencies in the model’s reasoning, and increase the overall accuracy and reliability of the generated responses. However, it may also increase the time and resources required to generate a response, especially if you need to generate a large number of responses to achieve self-consistency. Again, like the CoT, this approach can alos sometimes lead to the model losing context in longer conversations.</p>
+</section>
+<section id="prompt-chaining" class="level1">
+<h1>5- Prompt chaining</h1>
+<p>Breaking down a complex task into smaller sub-tasks, and using the output of one prompt as the input for the next prompt. This can help to simplify the task and make it easier for the model to generate accurate and relevant responses. Since the LLM operates on probabilistic reasoning, this approaach can also be ineffcetive sometimes.</p>
+<p>There are many other prompting strategies that can be used to improve the performance of large language models. However, for any strategy to be effective, it is important to use the clear language and be specific in you prompts. Additional, always name the file/docuemnt, or a concept you are working on. Providing the reasoning and justification of your task can also be helpful to the model in generating accurate and relevant responses.</p>
+</section>
+<section id="reference" class="level1">
+<h1>Reference:</h1>
+<p>Ruksha, K. (2024, April 12). Prompt engineering: Classification of techniques and prompt tuning. Medium. https://medium.com/the-modern-scientist/prompt-engineering-classification-of-techniques-and-prompt-tuning-6d4247b9b64c</p>
 
 
 </section>

@@ -1,9 +1,43 @@
-# Article 1
+# Writing with AI: A Beginner's Guide 
 
-This is the content of Article 1. It provides an introduction to the topic and sets the stage for the subsequent articles.
+writing with GenAI is not just about using AI tools or having access to advanced models. It's about undertsanding how to use these tools effectively to enhance your writing process. Therefore, AI literacy is crucial for anyone looking to leverage AI in their writing endeavors. This article will explore the fundamentals of writing with AI, providing insights and practical tips for beginners.
 
-+ one
-+ two
-+ three
+This artcile shares the AZ Strategy and how it can be used properly to get useful outputs from GenAI. This strategy is developed by Amy H. Zufelt (2025), and is an extension of Graham's (2022) work. 
 
-![description of image](pic.png)
+The AZ Strategy contains five main steps:
+
+1- Gather and Summarize
+2- Prompt and Draft 
+3- Curate, Revise and Edit
+4- Review
+5- Format and Design 
+
+Step 1: Gather and Summarize 
+
++ Determine the main goal and purpose of the task you want to accomplish with AI. Ask yourself, what are you seeking to get out of this communication? 
++ Detremine the message you want to convey. Ask yourself, do you want to inform, persuade, entertain, or inspire your audience?
++ Identify the channel and form of your communciation. Ask your self, is it a letter, an email, a blog post, a social media post, or a report?
++ Identify your audience. Ask yourself, who are you trying to reach? What are their needs, interests, and preferences?
++ Gather relevant and factual information needed to support your message. Ask yourself, what data, statistics, examples, or anecdotes can you use to strengthen your argument or narrative?
+  
+
+Step 2: Prompt and Draft
+
++ Copy and paste the gathered information from Step 1 into the AI tool you are using. Ask the AI to create a draft based on the information provided. [You can also provide additional instructions in your prompt about how you want the draft to be structured, the tone and style of writing and the layout of the document or content.]
+  
+Step 3: Curate, Revise and Edit
+
+ + Add and remove details as needed by identifying what is important and what additional infromation is needed. You can prompt the AI again and ask it to eliminate or add anything you want. 
+ + Examine the voice, tone and style of the draft/content. Ask your self, is the text too fromal or informal for your audience? Does it need to refelct a specific brand voice or personality? Is the tone consistent throughout the text? repeat this process until you are satisfied with the output.
+  
+Step 4: Review
+
+ + Reveiw the draft for clarity and consistency. Ask yourself, will it be easily understood? is it cohesive and organized? is it complete, consize and accurate? It is important to fact-check the statistics provided by the AI. [You can also manually check the data and verify the sources to avoid any potential misinformation or inaccuracies.]
+
+Step 5: Format
+
++ Paste the content into the email/document or edit the draft created by the AI if it's meant to be sent as a file, according to your needs. Proofread the final version and make any necessary adjustments to ensure it meets your standards and expectations.
+
+# Reference: 
+Zufelt, A. H. (2025). How instructors can teach students to collaborate with generative AI to craft effective written business communications. Business and Professional Communication Quarterly, 88(2), 359-374.
+
